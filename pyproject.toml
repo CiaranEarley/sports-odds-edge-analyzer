@@ -1,0 +1,14 @@
+[project]
+name = "sports-odds-edge-analyzer"
+version = "0.1.0"
+description = "A Streamlit app for sports betting market analysis and edge sizing."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "plotly>=5.20",
+    "streamlit>=1.35",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

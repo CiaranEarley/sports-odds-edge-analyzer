@@ -1478,8 +1478,17 @@ def _apply_styles() -> None:
         """
         <style>
         .block-container {
-            padding-top: 2rem;
+            max-width: 100%;
+            padding-top: 1rem;
+            padding-right: 1rem;
             padding-bottom: 2rem;
+            padding-left: 1rem;
+        }
+        header[data-testid="stHeader"],
+        div[data-testid="stToolbar"],
+        div[data-testid="stDecoration"] {
+            display: none;
+            height: 0;
         }
         div[data-testid="stMetric"] {
             border: 1px solid #334155;

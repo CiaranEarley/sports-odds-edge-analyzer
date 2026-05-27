@@ -34,7 +34,7 @@ and equity/drawdown curves.
 
 ## Methodology
 
-The methodology tab is the project explanation layer. It documents the
-workflow, formulas, assumptions, and why post-trade evaluation matters.
+The methodology tab documents the workflow, formulas, assumptions, and why
+post-trade evaluation matters.
 
 ![Methodology](../assets/sports-edge-methodology.png)

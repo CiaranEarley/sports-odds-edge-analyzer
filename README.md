@@ -53,6 +53,7 @@ known.
 
 - [Getting started](docs/guides/getting-started.md)
 - [App walkthrough](docs/guides/app-walkthrough.md)
+- [Deployment](docs/guides/deployment.md)
 - [Screenshot gallery](docs/guides/screenshot-gallery.md)
 
 ## Features
@@ -80,6 +81,27 @@ known.
 python -m pip install -e .
 python -m streamlit run app.py
 ```
+
+## Public Streamlit Deployment
+
+Deploy this app from the GitHub repository, not from a Streamlit template.
+Templates are for starting a new example app; this project is already a complete
+repository-backed app.
+
+Use these settings in Streamlit Community Cloud:
+
+```text
+Repository: CiaranEarley/sports-odds-edge-analyzer
+Branch: main
+Main file path: app.py
+Dependency file: requirements.txt
+```
+
+No secrets are required for the default demo. The `Market Data` tab can fetch
+read-only public Polymarket data only after a user clicks the fetch button, and
+the rest of the app works with manual or sample inputs.
+
+Full deployment notes are in [Deployment](docs/guides/deployment.md).
 
 ## Bet Log Format
 

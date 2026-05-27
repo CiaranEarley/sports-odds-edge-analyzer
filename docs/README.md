@@ -14,4 +14,5 @@ This folder contains screenshots and guides for the Sports Odds Edge Analyzer.
 
 - [Getting started](guides/getting-started.md)
 - [App walkthrough](guides/app-walkthrough.md)
+- [Deployment](guides/deployment.md)
 - [Screenshot gallery](guides/screenshot-gallery.md)

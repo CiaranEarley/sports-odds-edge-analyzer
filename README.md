@@ -5,6 +5,8 @@ implied probabilities, removes market margin, compares the market against a
 simple model, sizes positions with fractional Kelly, and reviews whether model
 edge held up over a sample of bets.
 
+Live app: [sports-odds-edge-analyzer-ce.streamlit.app](https://sports-odds-edge-analyzer-ce.streamlit.app/)
+
 ![Sports odds edge analyzer](docs/assets/sports-edge-market-edge.png)
 
 ## Screenshots
